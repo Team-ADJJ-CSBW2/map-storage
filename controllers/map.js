@@ -58,6 +58,10 @@ router
         items,
         exits
       } = req.body;
+      const exist = await Maps.find({ room_id: room_id }).first();
+      if (exist) {
+        return res.status(400).json({ message: "Room already exists!" });
+      }
       if (
         room_id !== undefined &&
         title &&
@@ -122,6 +126,16 @@ router
       res
         .status(500)
         .json({ error: "There was an error while adding the room to the map" });
+    }
+  })
+  .delete(async (req, res) => {
+    const deleted = await Maps.remove({ id: req.body.id });
+    if (deleted) {
+      res.status(200).json({
+        message: "Room successfully deleted."
+      });
+    } else {
+      res.status(404).json({ message: "That room does not exist." });
     }
   });
 
