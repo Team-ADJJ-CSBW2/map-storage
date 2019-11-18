@@ -59,11 +59,11 @@ router
         exits
       } = req.body;
       if (
-        room_id &&
+        room_id !== undefined &&
         title &&
         description &&
         coordinates &&
-        elevation &&
+        elevation !== undefined &&
         terrain &&
         items &&
         exits
