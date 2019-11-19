@@ -35,6 +35,16 @@ exports.seed = function(knex) {
       exits: ["n", "s", "e"]
     },
     {
+      room_id: 3,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(61,59)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
       room_id: 4,
       title: "A misty room",
       description:
@@ -44,6 +54,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 5,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
     },
     {
       room_id: 6,
@@ -79,6 +100,16 @@ exports.seed = function(knex) {
       exits: ["s", "w"]
     },
     {
+      room_id: 9,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(61,58)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "e"]
+    },
+    {
       room_id: 10,
       title: "A misty room",
       description:
@@ -90,6 +121,58 @@ exports.seed = function(knex) {
       exits: ["n", "s", "w"]
     },
     {
+      room_id: 11,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(62,58)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 12,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(61,57)",
+      elevation: 3,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "e", "w"]
+    },
+    {
+      room_id: 13,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,60)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 14,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(62,57)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 15,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,60)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
+    },
+    {
       room_id: 16,
       title: "A misty room",
       description:
@@ -99,6 +182,27 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 17,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 18,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(61,56)",
+      elevation: 4,
+      terrain: "MOUNTAIN",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "w"]
     },
     {
       room_id: 19,
@@ -123,6 +227,27 @@ exports.seed = function(knex) {
       exits: ["n", "s", "e", "w"]
     },
     {
+      room_id: 21,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(60,57)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 22,
+      title: "The Peak of Mt. Holloway",
+      description:
+        "You are standing at the zenith of Mt. Holloway. You see before you a holy shrine erected in the image of a magnificent winged deity.",
+      coordinates: "(61,55)",
+      elevation: 5,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "w"]
+    },
+    {
       room_id: 23,
       title: "A misty room",
       description:
@@ -132,6 +257,38 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["s", "e"]
+    },
+    {
+      room_id: 24,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s"]
+    },
+    {
+      room_id: 25,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(60,56)",
+      elevation: 3,
+      terrain: "MOUNTAIN",
+      items: ["tiny treasure"],
+      exits: ["e"]
+    },
+    {
+      room_id: 26,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,61)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
     },
     {
       room_id: 27,
@@ -154,6 +311,16 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n"]
+    },
+    {
+      room_id: 29,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(59,57)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["s", "e", "w"]
     },
     {
       room_id: 30,
@@ -200,6 +367,47 @@ exports.seed = function(knex) {
       exits: ["e", "w"]
     },
     {
+      room_id: 34,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(62,56)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 35,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "w"]
+    },
+    {
+      room_id: 36,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(60,55)",
+      elevation: 4,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 37,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(63,57)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["w"]
+    },
+    {
       room_id: 38,
       title: "A misty room",
       description:
@@ -244,6 +452,17 @@ exports.seed = function(knex) {
       exits: ["e"]
     },
     {
+      room_id: 42,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e", "w"]
+    },
+    {
       room_id: 43,
       title: "A misty room",
       description:
@@ -253,6 +472,27 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["e", "w"]
+    },
+    {
+      room_id: 44,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s"]
+    },
+    {
+      room_id: 45,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(59,56)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
     },
     {
       room_id: 46,
@@ -277,6 +517,38 @@ exports.seed = function(knex) {
       exits: ["n", "e"]
     },
     {
+      room_id: 48,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(60,54)",
+      elevation: 3,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 49,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 50,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
+    },
+    {
       room_id: 51,
       title: "A misty room",
       description:
@@ -286,6 +558,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure", "tiny treasure"],
       exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 52,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e"]
     },
     {
       room_id: 53,
@@ -304,6 +587,17 @@ exports.seed = function(knex) {
       description:
         "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
       coordinates: "(64,63)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
+    },
+    {
+      room_id: 55,
+      title: "Wishing Well",
+      description:
+        "You are standing besides a large well. A sign next the well reads 'EXAMINE WELL, FIND WEALTH'.",
+      coordinates: "(63,61)",
       elevation: 0,
       terrain: "NORMAL",
       items: [],
@@ -352,6 +646,16 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 60,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(59,55)",
+      elevation: 3,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "e", "w"]
     },
     {
       room_id: 61,
@@ -431,6 +735,17 @@ exports.seed = function(knex) {
       exits: ["e", "w"]
     },
     {
+      room_id: 68,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
       room_id: 69,
       title: "A misty room",
       description:
@@ -440,6 +755,16 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 70,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(58,55)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["s", "e", "w"]
     },
     {
       room_id: 71,
@@ -486,6 +811,17 @@ exports.seed = function(knex) {
       exits: ["n", "s", "w"]
     },
     {
+      room_id: 75,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
       room_id: 76,
       title: "A misty room",
       description:
@@ -506,6 +842,49 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure", "tiny treasure"],
       exits: ["e"]
+    },
+    {
+      room_id: 78,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(61,54)",
+      elevation: 4,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 79,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n"]
+    },
+    {
+      room_id: 80,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 81,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
     },
     {
       room_id: 82,
@@ -541,6 +920,28 @@ exports.seed = function(knex) {
       exits: ["e", "w"]
     },
     {
+      room_id: 85,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 86,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
       room_id: 87,
       title: "A misty room",
       description:
@@ -560,6 +961,27 @@ exports.seed = function(knex) {
       elevation: 0,
       terrain: "NORMAL",
       items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 89,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(62,54)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 90,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
       exits: ["e", "w"]
     },
     {
@@ -585,6 +1007,16 @@ exports.seed = function(knex) {
       exits: ["w"]
     },
     {
+      room_id: 93,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(62,53)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "w"]
+    },
+    {
       room_id: 94,
       title: "A misty room",
       description:
@@ -607,6 +1039,38 @@ exports.seed = function(knex) {
       exits: ["n", "s", "w"]
     },
     {
+      room_id: 96,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
+      room_id: 97,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 98,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(57,55)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "e", "w"]
+    },
+    {
       room_id: 99,
       title: "A misty room",
       description:
@@ -618,6 +1082,17 @@ exports.seed = function(knex) {
       exits: ["n", "e", "w"]
     },
     {
+      room_id: 100,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
       room_id: 101,
       title: "A misty room",
       description:
@@ -627,6 +1102,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "w"]
+    },
+    {
+      room_id: 102,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "w"]
     },
     {
       room_id: 103,
@@ -651,11 +1137,53 @@ exports.seed = function(knex) {
       exits: ["n", "e"]
     },
     {
+      room_id: 105,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(60,53)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "w"]
+    },
+    {
+      room_id: 106,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "w"]
+    },
+    {
       room_id: 107,
       title: "A misty room",
       description:
         "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
       coordinates: "(65,60)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 108,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(61,53)",
+      elevation: 3,
+      terrain: "MOUNTAIN",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 109,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,55)",
       elevation: 0,
       terrain: "NORMAL",
       items: [],
@@ -671,6 +1199,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["e"]
+    },
+    {
+      room_id: 111,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 112,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e", "w"]
     },
     {
       room_id: 113,
@@ -715,6 +1265,27 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure", "tiny treasure"],
       exits: ["n", "s"]
+    },
+    {
+      room_id: 117,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(61,52)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "e", "w"]
+    },
+    {
+      room_id: 118,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
     },
     {
       room_id: 119,
@@ -794,6 +1365,17 @@ exports.seed = function(knex) {
       exits: ["n", "e", "w"]
     },
     {
+      room_id: 126,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
       room_id: 127,
       title: "A misty room",
       description:
@@ -816,6 +1398,17 @@ exports.seed = function(knex) {
       exits: ["s", "e"]
     },
     {
+      room_id: 129,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e", "w"]
+    },
+    {
       room_id: 130,
       title: "A misty room",
       description:
@@ -825,6 +1418,16 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["w"]
+    },
+    {
+      room_id: 131,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(61,51)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n", "s", "w"]
     },
     {
       room_id: 132,
@@ -838,6 +1441,16 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 133,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(60,52)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
       room_id: 134,
       title: "A misty room",
       description:
@@ -849,11 +1462,88 @@ exports.seed = function(knex) {
       exits: ["n", "s", "e"]
     },
     {
+      room_id: 135,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e"]
+    },
+    {
+      room_id: 136,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 137,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
+    },
+    {
+      room_id: 138,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(60,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["s", "e", "w"]
+    },
+    {
       room_id: 139,
       title: "A misty room",
       description:
         "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
       coordinates: "(56,60)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 140,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
+    },
+    {
+      room_id: 141,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
+      room_id: 142,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,56)",
       elevation: 0,
       terrain: "NORMAL",
       items: ["tiny treasure"],
@@ -915,6 +1605,38 @@ exports.seed = function(knex) {
       exits: ["n", "s", "e", "w"]
     },
     {
+      room_id: 148,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 149,
+      title: "Mt. Holloway",
+      description: "You are on the side of a steep incline.",
+      coordinates: "(59,54)",
+      elevation: 2,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["e"]
+    },
+    {
+      room_id: 150,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["n", "w"]
+    },
+    {
       room_id: 151,
       title: "A misty room",
       description:
@@ -948,6 +1670,17 @@ exports.seed = function(knex) {
       exits: ["e", "w"]
     },
     {
+      room_id: 154,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
       room_id: 155,
       title: "A misty room",
       description:
@@ -956,6 +1689,17 @@ exports.seed = function(knex) {
       elevation: 0,
       terrain: "NORMAL",
       items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 156,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
       exits: ["s", "e", "w"]
     },
     {
@@ -968,6 +1712,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 158,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "w"]
+    },
+    {
+      room_id: 159,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
     },
     {
       room_id: 160,
@@ -1003,6 +1769,27 @@ exports.seed = function(knex) {
       exits: ["e"]
     },
     {
+      room_id: 163,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(58,54)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["n"]
+    },
+    {
+      room_id: 164,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "e", "w"]
+    },
+    {
       room_id: 165,
       title: "A misty room",
       description:
@@ -1014,6 +1801,38 @@ exports.seed = function(knex) {
       exits: ["n", "s", "w"]
     },
     {
+      room_id: 166,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(62,52)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 167,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 168,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
       room_id: 169,
       title: "A misty room",
       description:
@@ -1023,6 +1842,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["s", "e"]
+    },
+    {
+      room_id: 170,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
     },
     {
       room_id: 171,
@@ -1047,6 +1877,17 @@ exports.seed = function(knex) {
       exits: ["n", "s"]
     },
     {
+      room_id: 173,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(59,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
       room_id: 174,
       title: "A misty room",
       description:
@@ -1056,6 +1897,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 175,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e", "w"]
     },
     {
       room_id: 176,
@@ -1080,6 +1932,28 @@ exports.seed = function(knex) {
       exits: ["n", "w"]
     },
     {
+      room_id: 178,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 179,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e", "w"]
+    },
+    {
       room_id: 180,
       title: "A misty room",
       description:
@@ -1089,6 +1963,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["s"]
+    },
+    {
+      room_id: 181,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
     },
     {
       room_id: 182,
@@ -1102,6 +1987,17 @@ exports.seed = function(knex) {
       exits: ["e", "w"]
     },
     {
+      room_id: 183,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
       room_id: 184,
       title: "A misty room",
       description:
@@ -1111,6 +2007,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["e", "w"]
+    },
+    {
+      room_id: 185,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
     },
     {
       room_id: 186,
@@ -1190,6 +2097,83 @@ exports.seed = function(knex) {
       exits: ["n", "s", "e"]
     },
     {
+      room_id: 193,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 194,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "w"]
+    },
+    {
+      room_id: 195,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(59,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 196,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 197,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 198,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 199,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "w"]
+    },
+    {
       room_id: 200,
       title: "A misty room",
       description:
@@ -1210,6 +2194,16 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["s"]
+    },
+    {
+      room_id: 202,
+      title: "Mt. Holloway",
+      description: "You are at the base of a large, looming mountain.",
+      coordinates: "(59,53)",
+      elevation: 1,
+      terrain: "MOUNTAIN",
+      items: [],
+      exits: ["e"]
     },
     {
       room_id: 203,
@@ -1278,6 +2272,17 @@ exports.seed = function(knex) {
       exits: ["e"]
     },
     {
+      room_id: 209,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s"]
+    },
+    {
       room_id: 210,
       title: "A misty room",
       description:
@@ -1289,6 +2294,17 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 211,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(60,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
+    },
+    {
       room_id: 212,
       title: "A misty room",
       description:
@@ -1298,6 +2314,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure", "tiny treasure"],
       exits: ["w"]
+    },
+    {
+      room_id: 213,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 214,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e", "w"]
     },
     {
       room_id: 215,
@@ -1319,6 +2357,17 @@ exports.seed = function(knex) {
       terrain: "CAVE",
       items: ["tiny treasure"],
       exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 217,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e"]
     },
     {
       room_id: 218,
@@ -1364,6 +2413,17 @@ exports.seed = function(knex) {
       exits: ["s", "e", "w"]
     },
     {
+      room_id: 222,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
       room_id: 223,
       title: "A misty room",
       description:
@@ -1386,6 +2446,28 @@ exports.seed = function(knex) {
       exits: ["w"]
     },
     {
+      room_id: 225,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e"]
+    },
+    {
+      room_id: 226,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e"]
+    },
+    {
       room_id: 227,
       title: "A misty room",
       description:
@@ -1395,6 +2477,39 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["n", "s"]
+    },
+    {
+      room_id: 228,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(59,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 229,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 230,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "e"]
     },
     {
       room_id: 231,
@@ -1408,6 +2523,28 @@ exports.seed = function(knex) {
       exits: ["s", "w"]
     },
     {
+      room_id: 232,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 233,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "w"]
+    },
+    {
       room_id: 234,
       title: "A Dark Cave",
       description: "You are standing in a dark cave.",
@@ -1416,6 +2553,28 @@ exports.seed = function(knex) {
       terrain: "CAVE",
       items: ["tiny treasure"],
       exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 235,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 236,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["s", "e"]
     },
     {
       room_id: 237,
@@ -1427,6 +2586,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["e", "w"]
+    },
+    {
+      room_id: 238,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
+    },
+    {
+      room_id: 239,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "w"]
     },
     {
       room_id: 240,
@@ -1461,6 +2642,28 @@ exports.seed = function(knex) {
       exits: ["n", "s", "e", "w"]
     },
     {
+      room_id: 243,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 244,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(61,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
       room_id: 245,
       title: "A misty room",
       description:
@@ -1483,6 +2686,17 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 247,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
       room_id: 248,
       title: "A misty room",
       description:
@@ -1503,6 +2717,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 250,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 251,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
     },
     {
       room_id: 252,
@@ -1548,6 +2784,17 @@ exports.seed = function(knex) {
       exits: ["w"]
     },
     {
+      room_id: 256,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
       room_id: 257,
       title: "A misty room",
       description:
@@ -1580,6 +2827,39 @@ exports.seed = function(knex) {
       exits: ["n", "w"]
     },
     {
+      room_id: 260,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure", "tiny treasure"],
+      exits: ["w"]
+    },
+    {
+      room_id: 261,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 262,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "e"]
+    },
+    {
       room_id: 263,
       title: "A Dark Cave",
       description: "You are standing in a dark cave.",
@@ -1588,6 +2868,17 @@ exports.seed = function(knex) {
       terrain: "CAVE",
       items: [],
       exits: ["n"]
+    },
+    {
+      room_id: 264,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "w"]
     },
     {
       room_id: 265,
@@ -1667,6 +2958,39 @@ exports.seed = function(knex) {
       exits: ["n", "e"]
     },
     {
+      room_id: 272,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 273,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure", "tiny treasure"],
+      exits: ["n", "e"]
+    },
+    {
+      room_id: 274,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "w"]
+    },
+    {
       room_id: 275,
       title: "A misty room",
       description:
@@ -1676,6 +3000,39 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure", "tiny treasure"],
       exits: ["e", "w"]
+    },
+    {
+      room_id: 276,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 277,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
+      room_id: 278,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
     },
     {
       room_id: 279,
@@ -1698,6 +3055,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "e"]
+    },
+    {
+      room_id: 281,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(59,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e", "w"]
     },
     {
       room_id: 282,
@@ -1775,6 +3143,17 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 289,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
       room_id: 290,
       title: "A misty room",
       description:
@@ -1797,6 +3176,50 @@ exports.seed = function(knex) {
       exits: ["n", "e", "w"]
     },
     {
+      room_id: 292,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
+      room_id: 293,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n"]
+    },
+    {
+      room_id: 294,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 295,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s"]
+    },
+    {
       room_id: 296,
       title: "A misty room",
       description:
@@ -1808,6 +3231,28 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 297,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
+      room_id: 298,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["s", "w"]
+    },
+    {
       room_id: 299,
       title: "A misty room",
       description:
@@ -1817,6 +3262,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["e", "w"]
+    },
+    {
+      room_id: 300,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 301,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
     },
     {
       room_id: 302,
@@ -1839,6 +3306,28 @@ exports.seed = function(knex) {
       exits: ["n", "e", "w"]
     },
     {
+      room_id: 304,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s"]
+    },
+    {
+      room_id: 305,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
+    },
+    {
       room_id: 306,
       title: "A misty room",
       description:
@@ -1848,6 +3337,39 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["e", "w"]
+    },
+    {
+      room_id: 307,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "e", "w"]
+    },
+    {
+      room_id: 308,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
+    },
+    {
+      room_id: 309,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(60,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
     },
     {
       room_id: 310,
@@ -1904,6 +3426,17 @@ exports.seed = function(knex) {
       exits: ["e"]
     },
     {
+      room_id: 315,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
+    },
+    {
       room_id: 316,
       title: "A misty room",
       description:
@@ -1913,6 +3446,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "w"]
+    },
+    {
+      room_id: 317,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 318,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(59,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
     },
     {
       room_id: 319,
@@ -1937,6 +3492,50 @@ exports.seed = function(knex) {
       exits: ["n", "s"]
     },
     {
+      room_id: 321,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e"]
+    },
+    {
+      room_id: 322,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(70,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 323,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(70,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 324,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["n", "s", "e"]
+    },
+    {
       room_id: 325,
       title: "A misty room",
       description:
@@ -1946,6 +3545,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 326,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(61,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "w"]
+    },
+    {
+      room_id: 327,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(70,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
     },
     {
       room_id: 328,
@@ -1970,6 +3591,17 @@ exports.seed = function(knex) {
       exits: ["w"]
     },
     {
+      room_id: 330,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "w"]
+    },
+    {
       room_id: 331,
       title: "A misty room",
       description:
@@ -1990,6 +3622,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["n", "s"]
+    },
+    {
+      room_id: 333,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(60,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 334,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "e", "w"]
     },
     {
       room_id: 335,
@@ -2030,6 +3684,60 @@ exports.seed = function(knex) {
       description:
         "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
       coordinates: "(71,61)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "w"]
+    },
+    {
+      room_id: 339,
+      title: "A Dark Cave",
+      description: "You are standing in a dark cave.",
+      coordinates: "(53,68)",
+      elevation: 0,
+      terrain: "TRAP",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 340,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
+      room_id: 341,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "w"]
+    },
+    {
+      room_id: 342,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(61,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 343,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,53)",
       elevation: 0,
       terrain: "NORMAL",
       items: ["tiny treasure"],
@@ -2091,6 +3799,17 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 349,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "e", "w"]
+    },
+    {
       room_id: 350,
       title: "A misty room",
       description:
@@ -2099,6 +3818,28 @@ exports.seed = function(knex) {
       elevation: 0,
       terrain: "NORMAL",
       items: [],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 351,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 352,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
       exits: ["n", "s", "e"]
     },
     {
@@ -2113,6 +3854,39 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 354,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
+      room_id: 355,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(51,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["small treasure", "tiny treasure"],
+      exits: ["e"]
+    },
+    {
+      room_id: 356,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
+    },
+    {
       room_id: 357,
       title: "A misty room",
       description:
@@ -2122,6 +3896,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["w"]
+    },
+    {
+      room_id: 358,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
     },
     {
       room_id: 359,
@@ -2135,6 +3920,17 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 360,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "e"]
+    },
+    {
       room_id: 361,
       title: "A Dark Cave",
       description: "You are standing in a dark cave.",
@@ -2143,6 +3939,17 @@ exports.seed = function(knex) {
       terrain: "TRAP",
       items: [],
       exits: ["n", "s"]
+    },
+    {
+      room_id: 362,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s", "w"]
     },
     {
       room_id: 363,
@@ -2167,6 +3974,39 @@ exports.seed = function(knex) {
       exits: ["n", "s", "e", "w"]
     },
     {
+      room_id: 365,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s"]
+    },
+    {
+      room_id: 366,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,60)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
+    },
+    {
+      room_id: 367,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n"]
+    },
+    {
       room_id: 368,
       title: "A Dark Cave",
       description: "You are standing in a dark cave.",
@@ -2177,11 +4017,55 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 369,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 370,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure", "tiny treasure"],
+      exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 371,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "w"]
+    },
+    {
       room_id: 372,
       title: "A misty room",
       description:
         "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
       coordinates: "(56,71)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 373,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,48)",
       elevation: 0,
       terrain: "NORMAL",
       items: ["tiny treasure"],
@@ -2208,6 +4092,39 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["n", "e"]
+    },
+    {
+      room_id: 376,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(51,59)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
+    },
+    {
+      room_id: 377,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n"]
+    },
+    {
+      room_id: 378,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(60,47)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
     },
     {
       room_id: 379,
@@ -2243,6 +4160,39 @@ exports.seed = function(knex) {
       exits: ["n", "w"]
     },
     {
+      room_id: 382,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(70,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e"]
+    },
+    {
+      room_id: 383,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(51,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 384,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
       room_id: 385,
       title: "A misty room",
       description:
@@ -2265,6 +4215,39 @@ exports.seed = function(knex) {
       exits: ["e", "w"]
     },
     {
+      room_id: 387,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 388,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(71,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 389,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,51)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
+    },
+    {
       room_id: 390,
       title: "A misty room",
       description:
@@ -2276,6 +4259,17 @@ exports.seed = function(knex) {
       exits: ["w"]
     },
     {
+      room_id: 391,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e", "w"]
+    },
+    {
       room_id: 392,
       title: "A misty room",
       description:
@@ -2285,6 +4279,17 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["s", "e"]
+    },
+    {
+      room_id: 393,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure", "tiny treasure"],
+      exits: ["n", "s"]
     },
     {
       room_id: 394,
@@ -2309,11 +4314,66 @@ exports.seed = function(knex) {
       exits: ["s", "e", "w"]
     },
     {
+      room_id: 396,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(54,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n"]
+    },
+    {
       room_id: 397,
       title: "A misty room",
       description:
         "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
       coordinates: "(71,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
+      room_id: 398,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(70,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 399,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(68,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n", "s"]
+    },
+    {
+      room_id: 400,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,60)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s"]
+    },
+    {
+      room_id: 401,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,50)",
       elevation: 0,
       terrain: "NORMAL",
       items: ["tiny treasure"],
@@ -2373,6 +4433,17 @@ exports.seed = function(knex) {
       exits: ["s", "w"]
     },
     {
+      room_id: 407,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "w"]
+    },
+    {
       room_id: 408,
       title: "A Dark Cave",
       description: "You are standing in a dark cave.",
@@ -2381,6 +4452,17 @@ exports.seed = function(knex) {
       terrain: "CAVE",
       items: ["tiny treasure"],
       exits: ["n", "s", "w"]
+    },
+    {
+      room_id: 409,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
     },
     {
       room_id: 410,
@@ -2415,6 +4497,17 @@ exports.seed = function(knex) {
       exits: ["s", "e"]
     },
     {
+      room_id: 413,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(62,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n"]
+    },
+    {
       room_id: 414,
       title: "A misty room",
       description:
@@ -2447,6 +4540,17 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 417,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(58,47)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["n"]
+    },
+    {
       room_id: 418,
       title: "A Dark Cave",
       description: "You are standing in a dark cave.",
@@ -2455,6 +4559,28 @@ exports.seed = function(knex) {
       terrain: "CAVE",
       items: ["tiny treasure"],
       exits: ["n", "s", "e"]
+    },
+    {
+      room_id: 419,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(51,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
+    },
+    {
+      room_id: 420,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e", "w"]
     },
     {
       room_id: 421,
@@ -2519,6 +4645,28 @@ exports.seed = function(knex) {
       exits: ["n", "s"]
     },
     {
+      room_id: 427,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(71,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 428,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(53,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
+    },
+    {
       room_id: 429,
       title: "A misty room",
       description:
@@ -2530,6 +4678,72 @@ exports.seed = function(knex) {
       exits: ["s"]
     },
     {
+      room_id: 430,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(72,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "e", "w"]
+    },
+    {
+      room_id: 431,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(57,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 432,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(61,47)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 433,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(71,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 434,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(65,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 435,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(71,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
       room_id: 436,
       title: "A misty room",
       description:
@@ -2539,6 +4753,39 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["s"]
+    },
+    {
+      room_id: 437,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(51,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 438,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(71,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 439,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(73,57)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
     },
     {
       room_id: 440,
@@ -2574,6 +4821,38 @@ exports.seed = function(knex) {
       exits: ["n"]
     },
     {
+      room_id: 443,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(72,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["s", "e"]
+    },
+    {
+      room_id: 444,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["small treasure", "tiny treasure", "tiny treasure"],
+      exits: ["n", "w"]
+    },
+    {
+      room_id: 445,
+      title: "A Dark Cave",
+      description: "You are standing in a dark cave.",
+      coordinates: "(52,68)",
+      elevation: 0,
+      terrain: "CAVE",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["n", "e", "w"]
+    },
+    {
       room_id: 446,
       title: "A misty room",
       description:
@@ -2585,6 +4864,16 @@ exports.seed = function(knex) {
       exits: ["e", "w"]
     },
     {
+      room_id: 447,
+      title: "A Dark Cave",
+      description: "You are standing in a dark cave.",
+      coordinates: "(52,69)",
+      elevation: 0,
+      terrain: "CAVE",
+      items: ["tiny treasure"],
+      exits: ["s"]
+    },
+    {
       room_id: 448,
       title: "A misty room",
       description:
@@ -2592,6 +4881,27 @@ exports.seed = function(knex) {
       coordinates: "(51,63)",
       elevation: 0,
       terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
+    },
+    {
+      room_id: 449,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["n"]
+    },
+    {
+      room_id: 450,
+      title: "A Dark Cave",
+      description: "You are standing in a dark cave.",
+      coordinates: "(51,68)",
+      elevation: 0,
+      terrain: "CAVE",
       items: [],
       exits: ["e"]
     },
@@ -2639,6 +4949,17 @@ exports.seed = function(knex) {
       exits: ["n", "e"]
     },
     {
+      room_id: 455,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(71,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
+    },
+    {
       room_id: 456,
       title: "A misty room",
       description:
@@ -2680,6 +5001,17 @@ exports.seed = function(knex) {
       exits: ["e"]
     },
     {
+      room_id: 460,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(72,53)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
       room_id: 461,
       title: "Linh's Shrine",
       description:
@@ -2702,6 +5034,17 @@ exports.seed = function(knex) {
       exits: ["w"]
     },
     {
+      room_id: 463,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,49)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["s", "e"]
+    },
+    {
       room_id: 464,
       title: "A misty room",
       description:
@@ -2713,6 +5056,17 @@ exports.seed = function(knex) {
       exits: ["n"]
     },
     {
+      room_id: 465,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(72,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e", "w"]
+    },
+    {
       room_id: 466,
       title: "A misty room",
       description:
@@ -2722,6 +5076,28 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["s", "e", "w"]
+    },
+    {
+      room_id: 467,
+      title: "Pirate Ry's",
+      description:
+        "You see a sign before you that reads:\n\n'You have found Pirate Ry's. Send a `change_name` request and I'll change your identity to whatever you wish... for a price.'",
+      coordinates: "(68,47)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 468,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(67,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["small treasure"],
+      exits: ["n"]
     },
     {
       room_id: 469,
@@ -2742,6 +5118,17 @@ exports.seed = function(knex) {
       terrain: "CAVE",
       items: ["tiny treasure"],
       exits: ["s"]
+    },
+    {
+      room_id: 471,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(73,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
     },
     {
       room_id: 472,
@@ -2776,11 +5163,44 @@ exports.seed = function(knex) {
       exits: ["n"]
     },
     {
+      room_id: 475,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n", "s"]
+    },
+    {
       room_id: 476,
       title: "A misty room",
       description:
         "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
       coordinates: "(72,61)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
+    },
+    {
+      room_id: 477,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(72,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 478,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(51,53)",
       elevation: 0,
       terrain: "NORMAL",
       items: ["tiny treasure"],
@@ -2798,6 +5218,17 @@ exports.seed = function(knex) {
       exits: ["w"]
     },
     {
+      room_id: 480,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(63,47)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["small treasure"],
+      exits: ["n"]
+    },
+    {
       room_id: 481,
       title: "A misty room",
       description:
@@ -2807,6 +5238,50 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: [],
       exits: ["s"]
+    },
+    {
+      room_id: 482,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(55,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 483,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(73,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["w"]
+    },
+    {
+      room_id: 484,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(64,47)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["small treasure", "tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 485,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(69,50)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
     },
     {
       room_id: 486,
@@ -2820,6 +5295,17 @@ exports.seed = function(knex) {
       exits: ["n"]
     },
     {
+      room_id: 487,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(59,47)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["n", "s"]
+    },
+    {
       room_id: 488,
       title: "A Dark Cave",
       description: "You are standing in a dark cave.",
@@ -2828,6 +5314,61 @@ exports.seed = function(knex) {
       terrain: "CAVE",
       items: ["tiny treasure"],
       exits: ["n"]
+    },
+    {
+      room_id: 489,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(59,46)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 490,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(51,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e", "w"]
+    },
+    {
+      room_id: 491,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(52,52)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure", "tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 492,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(56,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
+    },
+    {
+      room_id: 493,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(50,54)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
     },
     {
       room_id: 494,
@@ -2839,6 +5380,61 @@ exports.seed = function(knex) {
       terrain: "NORMAL",
       items: ["tiny treasure"],
       exits: ["w"]
+    },
+    {
+      room_id: 495,
+      title: "The Transmogriphier",
+      description:
+        'A strange machine stands in this room.  There is a large opening on the top.  A placard reads, "Test your luck!  One item and one Lambdacoin!"',
+      coordinates: "(50,58)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
+    },
+    {
+      room_id: 496,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(66,48)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["n"]
+    },
+    {
+      room_id: 497,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(50,55)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: ["tiny treasure"],
+      exits: ["e"]
+    },
+    {
+      room_id: 498,
+      title: "A misty room",
+      description:
+        "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+      coordinates: "(73,56)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["w"]
+    },
+    {
+      room_id: 499,
+      title: "Glasowyn's Grave",
+      description:
+        "You see a moss-topped gravestone which reads: 'Here lies Glasowyn of Web17/Labs12/CS18, who was crushed under the weight of her own gold.' There doesn't seem to be any gold around, but marks in the dirt suggest that someone has knelt there, perhaps in prayer.",
+      coordinates: "(51,67)",
+      elevation: 0,
+      terrain: "NORMAL",
+      items: [],
+      exits: ["e"]
     }
   ]);
 };
