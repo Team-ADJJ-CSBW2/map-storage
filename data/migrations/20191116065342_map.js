@@ -5,7 +5,7 @@ exports.up = function(knex) {
     map.integer("room_id");
 
     map.string("title", 256);
-    map.string("description", 256);
+    map.string("description", 999);
     map.string("coordinates", 256);
 
     map.integer("elevation");
