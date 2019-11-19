@@ -71,9 +71,10 @@ function buildGraph(rooms) {
       else graph[r.room_id][ex] = "?";
     });
   });
+  return graph;
 }
 
 function parseCoordinates(string) {
-  let [x, y] = string.slice(1, coords.length - 1).split(",");
+  let [x, y] = string.slice(1, string.length - 1).split(",");
   return [x, y].map(Number);
 }
