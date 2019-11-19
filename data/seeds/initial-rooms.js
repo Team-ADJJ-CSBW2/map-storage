@@ -1,6 +1,6 @@
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex("map").insert([
+  return knex("rooms").insert([
     {
       room_id: 0,
       title: "A brightly lit room",

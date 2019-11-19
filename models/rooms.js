@@ -8,24 +8,24 @@ module.exports = {
 };
 
 async function add(room) {
-  return db("map")
+  return db("rooms")
     .insert(room, ["*"])
     .then(() => find());
 }
 
 function find(filters) {
   if (filters) {
-    return db("map")
+    return db("rooms")
       .select("*")
       .where(filters);
   } else {
-    return db("map").select("*");
+    return db("rooms").select("*");
   }
 }
 
 function update(filters, changes) {
   // only allow one update at a time, so uses .first()
-  return db("map")
+  return db("rooms")
     .update(changes, ["*"])
     .where(filters)
     .then(m =>
@@ -37,7 +37,7 @@ function update(filters, changes) {
 
 function remove(filters) {
   // only returns the number of deleted entries
-  return db("map")
+  return db("rooms")
     .where(filters)
     .del();
 }

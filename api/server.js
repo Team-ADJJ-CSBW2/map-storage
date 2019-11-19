@@ -15,10 +15,10 @@ server.get("/", (req, res) => {
 server.use(cors(), helmet(), express.json());
 
 // Routers
-const mapRouter = require("../controllers/map");
+const roomRouter = require("../controllers/room");
 
 // API endpoints
-server.use("/api/map", mapRouter);
+server.use("/api/rooms", roomRouter);
 
 // Error Handling
 server.use(errorHandler);

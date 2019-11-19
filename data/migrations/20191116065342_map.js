@@ -1,22 +1,22 @@
 exports.up = function(knex) {
-  return knex.schema.createTable("map", map => {
-    map.increments();
+  return knex.schema.createTable("rooms", rooms => {
+    rooms.increments();
 
-    map.integer("room_id");
+    rooms.integer("room_id");
 
-    map.string("title", 256);
-    map.string("description", 999);
-    map.string("coordinates", 256);
+    rooms.string("title", 256);
+    rooms.string("description", 999);
+    rooms.string("coordinates", 256);
 
-    map.integer("elevation");
-    map.string("terrain", 256);
+    rooms.integer("elevation");
+    rooms.string("terrain", 256);
 
-    map.specificType("items", "text ARRAY");
+    rooms.specificType("items", "text ARRAY");
 
-    map.specificType("exits", "text ARRAY");
+    rooms.specificType("exits", "text ARRAY");
   });
 };
 
 exports.down = function(knex) {
-  return knex.schema.dropTableIfExists("map");
+  return knex.schema.dropTableIfExists("rooms");
 };
